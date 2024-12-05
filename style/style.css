@@ -1,0 +1,46 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web';
+    font-weight: 600;
+}
+
+.group {
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+}
+.form-control {
+    color: rgb(190, 184, 174);
+    background-color: #24353f;;
+    border-color: rgb(63, 68, 71);
+    
+}
+h1 {
+    color: rgb(85, 223, 245);
+}
+.form-control:focus {
+    color: rgb(190, 184, 174);
+    background-color: #24353f;
+    border-color: rgb(0, 70, 147);
+    outline: 0;
+    box-shadow: none;
+}
+
+input, textarea {
+    background-color: transparent !important;
+    color: rgb(244, 242, 238) !important;
+}
+
+.navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+nav a:hover{
+    text-decoration:none;
+}
